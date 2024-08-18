@@ -9,60 +9,50 @@ User Notifications: Automatic notifications for users when there is a price drop
 Product Management: Users can add, view, and remove products from their tracking list.
 Responsive UI: A user-friendly interface that is responsive across various devices.
 Data Storage: Efficient storage and retrieval of product data using MongoDB with Mongoose.
+
 Tech Stack
 Frontend:
-
 Next.js 14: Utilized for server-side rendering and optimized performance.
 TypeScript: Ensures type safety and helps catch errors during development.
 Tailwind CSS: For styling and creating a responsive, visually appealing UI.
 Backend:
-
 Mongoose: Manages MongoDB, handling the storage and retrieval of product data.
 Bright Data API: Used for web scraping to extract real-time pricing data from e-commerce websites.
 Database:
-
 MongoDB: Used as the primary database to store product information.
+
 Installation
 Prerequisites
 Node.js v14.x or higher
 MongoDB server
 Bright Data API key
+
 Setup
 Clone the repository:
-
-bash
-Copy code
 git clone https://github.com/asharafrouz/price-tracker.git
 cd price-tracker
+
 Install dependencies:
-
-bash
-Copy code
 npm install
+
 Environment Variables:
-
 Create a .env file in the root directory and add the following environment variables:
-
-bash
-Copy code
 MONGODB_URI=<your-mongodb-uri>
 BRIGHTDATA_API_KEY=<your-brightdata-api-key>
-Run the application:
 
-bash
-Copy code
+Run the application:
 npm run dev
+
 The application should now be running on http://localhost:3000.
 
 Usage
 Add Products: Users can add products to their tracking list by entering the product URL.
 Track Prices: The application will automatically scrape the latest prices and update the user's dashboard.
 Receive Notifications: Users will be notified of any price drops via the interface.
+
 Contributing
 Contributions are welcome! Please fork the repository and submit a pull request with your changes. Make sure to include detailed descriptions of your changes and update the documentation as needed.
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 Contact
 For any enquiries or support, feel free to contact me at:
